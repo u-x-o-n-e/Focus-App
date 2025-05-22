@@ -4,15 +4,15 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/notely/',
+  base: '/Focus-App/',
   plugins: [
     vue(),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
-        name: 'Notely',
-        short_name: 'Notely',
+        name: 'StudyLoop',
+        short_name: 'StudyLoop',
         description: 'Aplicación moderna para estudiantes con herramientas de organización académica',
         theme_color: '#4f46e5',
         background_color: '#ffffff',
