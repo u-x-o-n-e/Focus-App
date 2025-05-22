@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Focus-App/sw.js', { scope: '/Focus-App/' })})}
