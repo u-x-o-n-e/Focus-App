@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular -->
+  <rect width="512" height="512" rx="256" fill="#4F46E5"/>
+  
+  <!-- Libro abierto -->
+  <path d="M256 128C179.96 128 128 179.96 128 256C128 332.04 179.96 384 256 384C332.04 384 384 332.04 384 256C384 179.96 332.04 128 256 128Z" fill="white" fill-opacity="0.1"/>
+  
+  <!-- Página izquierda -->
+  <path d="M256 144C188.772 144 144 188.772 144 256C144 323.228 188.772 368 256 368C323.228 368 368 323.228 368 256C368 188.772 323.228 144 256 144Z" fill="white" fill-opacity="0.2"/>
+  
+  <!-- Página derecha -->
+  <path d="M256 144C323.228 144 368 188.772 368 256C368 323.228 323.228 368 256 368C188.772 368 144 323.228 144 256C144 188.772 188.772 144 256 144Z" fill="white" fill-opacity="0.2"/>
+  
+  <!-- Líneas de texto (simplificadas) -->
+  <path d="M192 224H320" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M192 256H320" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M192 288H320" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Lomo del libro -->
+  <path d="M256 144V368" stroke="white" stroke-width="8" stroke-linecap="round"/>
+</svg> 
